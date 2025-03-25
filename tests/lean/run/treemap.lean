@@ -39,3 +39,14 @@ example [TransOrd α] (a : α) (b : β) : (mkDTreeMapSingleton a b).contains a :
 
 example [TransOrd α] (a : α) : (mkTreeSetSingleton a).contains a := by
   simp [mkTreeSetSingleton, Id.run]
+
+/-!
+# Ideas
+
+* date/time
+* integer variants
+* strings
+* Option, List, Char, Vector, Array, Option, Fin
+-/
+
+#synth Ord String
